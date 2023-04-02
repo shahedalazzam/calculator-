@@ -1,0 +1,116 @@
+*{
+    background-color: #495370;
+    font-weight: bold;
+}
+
+body{
+    height: 50%;
+    padding-top: 10%;
+}
+.calc{
+    display: flex;
+    padding-top: 15px;
+    color: white; 
+    font-size: larger;
+}
+.theme{
+    display: flex;
+    padding-top: 15px;
+    color: white;
+    font-size: x-small;
+}
+.slider{
+    color: white;
+}
+.range {
+    background-color: #252e42;
+    position: relative;
+    height: 10px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.crcle{
+    border: 1px solid;
+    position: absolute;
+    bottom: 1px;
+    width: 25%;
+    border-radius: 50%;
+    height: 70%;
+    background: red;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+  
+}
+.information{
+    display: flex;
+    height: 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.result{
+    margin-bottom: 3px;
+    background: #191f32;
+    display: flex;
+    padding-right: 4%;
+    border-radius:5px;
+    height: 10%;
+    align-items: center;
+    justify-content: end;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+
+.numbers{
+    font-size: larger;
+     display: grid;
+     margin-top: 3%;
+     width: 100%;
+     border-radius: 5px;
+     background-color: #191f32;
+     justify-content: space-around;
+     height: 50%;
+     align-items:center;
+     grid-template-columns: repeat( 4,20%);
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     -ms-border-radius: 5px;
+     -o-border-radius: 5px;
+}
+.equal{
+    grid-column: 3/5;
+}
+.reset{
+    grid-column: 1/3;
+}
+
+button{
+    font-size: large;
+    width: 100%;
+    background: white;
+    height: 60%;
+    border-radius: 10px;
+
+}
